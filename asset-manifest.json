@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/numerodelproposito/static/css/main.d701db4f.css",
+    "main.js": "/numerodelproposito/static/js/main.47c7ebc0.js",
+    "static/js/453.4689b45c.chunk.js": "/numerodelproposito/static/js/453.4689b45c.chunk.js",
+    "static/media/background.jpg": "/numerodelproposito/static/media/background.1df5aaf249566f2ccdaf.jpg",
+    "index.html": "/numerodelproposito/index.html",
+    "main.d701db4f.css.map": "/numerodelproposito/static/css/main.d701db4f.css.map",
+    "main.47c7ebc0.js.map": "/numerodelproposito/static/js/main.47c7ebc0.js.map",
+    "453.4689b45c.chunk.js.map": "/numerodelproposito/static/js/453.4689b45c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d701db4f.css",
+    "static/js/main.47c7ebc0.js"
+  ]
+}
