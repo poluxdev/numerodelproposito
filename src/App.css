@@ -1,0 +1,119 @@
+/* src/App.css */
+
+body {
+  background-image: url('/public/images/background.jpg'); /* URL de la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el área del body */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Fija la imagen de fondo para un efecto parallax */
+  margin: 0; /* Elimina márgenes por defecto del body */
+  font-family: Arial, sans-serif; /* Define una fuente base para la aplicación */
+  overflow-x: hidden; /* Previene el desplazamiento horizontal */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.7); /* Fondo translúcido para el header */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  font-size: 3rem; /* Ajusta el tamaño del texto según tu preferencia */
+  padding: 20px;
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 0; /* Elimina el margen por defecto */
+  text-align: center; /* Centra el texto si es necesario */
+  color: #00f; /* Color de texto por defecto */
+  text-shadow: 
+    0 0 5px #ffffff, /* Resplandor blanco alrededor del texto */
+    0 0 10px #ffffff, /* Resplandor adicional para más definición */
+    0 0 15px #ffffff, /* Añade más difuminado para un contorno más marcado */
+    0 0 20px #ffffff; /* Extra para hacer que el borde resalte más */
+}
+
+.component-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad para transparencia */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+  padding: 20px;
+  margin: 10px 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.component-title {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.component-text {
+  color: #555;
+  line-height: 1.6;
+}
+
+.component-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.component-list li {
+  margin: 10px 0;
+}
+
+.component-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el ratón */
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4fa3b3;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
